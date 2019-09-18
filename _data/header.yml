@@ -21,7 +21,7 @@ type: extended
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
-  src: http://assets.defions.solutions/images/logos/defions-logo.png
+  src: http://assets.defions.solutions/images/logos/defions-logo.svg
   alt: Defions Solutions, Inc
   external: true
 
