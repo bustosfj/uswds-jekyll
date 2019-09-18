@@ -40,4 +40,4 @@ github_info:
 # Compress Sass
 sass:
   style: compressed
-theme: jekyll-theme-cayman
+theme: uswds-jekyll
