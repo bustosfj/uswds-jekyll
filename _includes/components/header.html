@@ -18,9 +18,11 @@
           {% if header.logo %}
             <img class="usa-logo-img" src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}" alt="{{ header.logo.alt }}">
           {% endif %}
+          <!--
           <em class="usa-logo-text">
             {{ header.title | default: site.title }}
           </em>
+          -->
         </a>
       </div>
     </div>
