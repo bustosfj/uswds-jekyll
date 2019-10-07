@@ -89,19 +89,16 @@
           {% endif %}
           {% if footer.contact.contact_links %}
             <address>
-              {% assign contact_links = site.data.footer.contact.contact_links %}
-              {% for _link in contact_links %}
                 <div class="usa-footer-primary-content usa-footer-contact_info">
-                  <p>
+                  <p> 
+                  {% assign contact_links = site.data.footer.contact.contact_links %}
+                  {% for _link in contact_links %}
                     <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
                       {{ _link.text }}
                     </a> | 
-                    <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
-                      {{ _link.text }}
-                    </a>                   
+                    {% endfor %}                 
                   </p>
                 </div>
-              {% endfor %}
             </address>
         {% endif %}
       {% endif %}
