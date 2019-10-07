@@ -95,7 +95,10 @@
                   <p>
                     <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
                       {{ _link.text }}
-                    </a>
+                    </a> | 
+                    <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
+                      {{ _link.text }}
+                    </a>                   
                   </p>
                 </div>
               {% endfor %}
