@@ -95,7 +95,8 @@
                   {% for _link in contact_links %}
                     <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
                       {{ _link.text }}
-                    </a> | 
+                    </a> 
+                    &nbsp;&nbsp;&nbsp;
                     {% endfor %}                 
                   </p>
                 </div>
