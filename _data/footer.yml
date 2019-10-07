@@ -15,12 +15,12 @@ top:
 # Configuration for "Edit this page" link in the footer.
 # Customize with 'text' property.
 # Uncomment the following line to show.
-# edit_page:
-#   text: Edit this page
+edit_page:
+  text: Edit this page
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
-# last_updated: true
+last_updated: true
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -54,15 +54,15 @@ contact:
       href: https://twitter.com
       external: true
       type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
+  #  - text: YouTube
+  #    href: https://youtube.com
+  #    external: true
+  #    type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Agency contact center
+  heading: We Defy Expectations!
 # Configuration for contact links for email, phone, etc...
   contact_links:
     - text: (213) 349-3971
