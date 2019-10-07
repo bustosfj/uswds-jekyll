@@ -54,6 +54,10 @@ contact:
       href: https://twitter.com
       external: true
       type: twitter
+    - text: LinkedIn
+      href: https://linkedin.com
+      external: true
+      type: linkedin
   #  - text: YouTube
   #    href: https://youtube.com
   #    external: true
