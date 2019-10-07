@@ -23,7 +23,7 @@ type: extended-mega
 logo:
   src: http://assets.defions.solutions/images/logos/defions-logo.svg
   alt: Defions Solutions, Inc
-  external: true
+  external: false
 
 # this is a key into _data/navigation.yml
 primary:
